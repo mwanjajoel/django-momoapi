@@ -15,6 +15,9 @@ MTN Uganda released API documentation to their Mobile Money service and integrat
 🙈🙈🙈🙈. Pip installation package is coming soon 
 ```
 
+## Code of Conduct 
+We follow a strict code of conduct and you can read it [Here](CODE_OF_CONDUCT.md)
+
 ## Credits
 
 Django MoMo API package was designed and built by Mwanja Joel, and is copyright © Mwanja Joel 2020. Django MoMo API is licensed under the MIT license; for the full license please see the LICENSE file.
