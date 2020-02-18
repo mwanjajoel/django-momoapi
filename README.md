@@ -17,7 +17,6 @@ pip install django-momoapi
 ## Development Setup
 
 
-
 ## How to submit an issue
 
 Please follow our [Bug Report Guide](ISSUE_TEMPLATE/BUG_REPORT.md) on how to submit your issue. 
