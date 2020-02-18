@@ -14,6 +14,17 @@ MTN Uganda released API documentation to their Mobile Money service and integrat
 ```
 🙈🙈🙈🙈. Pip installation package is coming soon 
 ```
+## Development Setup
+
+
+
+## How to submit an issue
+
+Please follow our [Bug Report Guide](ISSUE_TEMPLATE/BUG_REPORT.md) on how to submit your issue. 
+
+## How to request for a new feature 
+
+Please follow our [Feature Request Guide](ISSUE_TEMPLATE/FEATURE_REQUEST.md) on how to submit a feature request
 
 ## Code of Conduct 
 We follow a strict code of conduct and you can read it [Here](CODE_OF_CONDUCT.md)
