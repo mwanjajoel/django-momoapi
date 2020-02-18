@@ -12,7 +12,7 @@ MTN Uganda released API documentation to their Mobile Money service and integrat
 
 ## Installation
 ```
-🙈🙈🙈🙈. Pip installation package is coming soon 
+pip install django-momoapi 
 ```
 ## Development Setup
 

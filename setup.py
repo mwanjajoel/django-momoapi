@@ -13,6 +13,7 @@ setup(
     version="1.0.0",
     description="This is a Django package for the MTN MoMo API.",
     long_description=README,
+    long_description_content_type="text/markdown",
     url="https://github.com/mwanjajoel/django-momoapi",
     author="mwanjajoel",
     author_email="joelsilverworks@gmail.com",
