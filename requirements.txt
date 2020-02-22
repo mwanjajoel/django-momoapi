@@ -12,6 +12,7 @@ keyring==21.1.0
 pkginfo==1.5.0.1
 pycodestyle==2.5.0
 Pygments==2.5.2
+python-dotenv==0.11.0
 pytz==2019.3
 readme-renderer==24.0
 requests==2.22.0
