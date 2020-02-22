@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This does all the work once called
 setup(
     name="django-momoapi",
-    version="1.0.0",
+    version="1.1.0",
     description="This is a Django package for the MTN MoMo API.",
     long_description=README,
     long_description_content_type="text/markdown",
