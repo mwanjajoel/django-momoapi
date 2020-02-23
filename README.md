@@ -15,7 +15,12 @@ MTN Uganda released API documentation to their Mobile Money service and integrat
 pip install django-momoapi 
 ```
 ## Development Setup
-
+```
+- Create .env file following the .env_example.
+- Create a postgre database and its credentials to the .env file.
+- Run migrations using the command python manage.py migrate
+- Run application using the command python manage.py runserver
+```
 
 ## How to submit an issue
 
