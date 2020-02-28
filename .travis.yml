@@ -1,0 +1,15 @@
+language: python
+python:
+- '3.7'
+services:
+  - postgresql
+addons:
+  postgresql: "9.4"
+before_script:
+- pip3 install -r requirements.txt
+- psql -c 'create database momo;' -U postgres
+- python manage.py makemigrations
+- python manage.py migrate
+script:
+- coverage run --source="." manage.py test
+- coverage report -m
