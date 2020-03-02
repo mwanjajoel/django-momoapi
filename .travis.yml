@@ -7,7 +7,7 @@ addons:
   postgresql: "9.4"
 before_script:
 - pip3 install -r requirements.txt
-- psql -c 'create database momo;' -U postgres
+- psql -c 'create database djangomomo;' -U postgres
 - python manage.py makemigrations
 - python manage.py migrate
 script:
