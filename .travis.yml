@@ -6,7 +6,7 @@ services:
 addons:
   postgresql: "9.4"
 before_script:
-- pip3 install -r requirements.txt
+- pip install -r requirements.txt
 - psql -c 'create database momo;' -U postgres
 - python manage.py makemigrations
 - python manage.py migrate
