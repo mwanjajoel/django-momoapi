@@ -21,6 +21,8 @@ py==1.9.0
 pycodestyle==2.5.0
 Pygments==2.5.2
 pyparsing==2.4.7
+pytest==6.0.1
+pytest-cov==2.10.1
 pytest-django==3.9.0
 python-dotenv==0.11.0
 pytz==2019.3
