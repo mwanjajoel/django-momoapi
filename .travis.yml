@@ -8,7 +8,7 @@ addons:
 before_script:
 - pip install -r requirements.txt
 - psql -c 'create database momo;' -U postgres
-- python manage.py makemigrations --dry-run
+- python manage.py makemigrations
 - python manage.py migrate
 script:
 - pytest
