@@ -6,7 +6,7 @@ bumpversion==0.5.3
 certifi==2019.11.28
 chardet==3.0.4
 coverage==5.0.3
-Django==3.0.14
+Django==3.1.13
 docutils==0.16
 idna==2.8
 importlib-metadata==1.5.0
