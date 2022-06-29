@@ -13,6 +13,11 @@ MTN Uganda released API documentation to their Mobile Money service and integrat
 ```
 pip install django-momoapi 
 ```
+
+## Usage
+```
+TBD
+```
 ## Development Setup
 
 Clone the repository by running the following command in your terminal:
@@ -64,6 +69,12 @@ python manage.py migrate
 - Run application
 ```
 python manage.py runserver
+
+```
+
+## Run tests
+```
+pytest
 
 ```
 
