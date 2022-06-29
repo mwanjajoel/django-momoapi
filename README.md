@@ -15,17 +15,57 @@ pip install django-momoapi
 ```
 ## Development Setup
 
-- Clone the repository by running the following command in your terminal:
+Clone the repository by running the following command in your terminal:
 ```
-    git clone 
+git clone https://github.com/mwanjajoel/django-momoapi
 
-``` 
-- Create a Python virtual environment  
-- Create .env file following the .env_example.
-- Create a Postgres database and its credentials to the .env file.
-- Run migrations using the command python manage.py migrate
-- Run application using the command python manage.py runserver
+```
+Create a Python virtual environment 
 
+```
+virtualenv venv
+
+```
+
+Activate the virtual environment by running the following command in your terminal:
+```
+source venv/bin/activate
+
+```
+Install the dependencies by running the following command in your terminal:
+```
+pip install -r requirements.txt
+
+```
+
+Create .env file following the .env_example file
+
+```
+cp .env_example .env
+
+```
+
+Create a Postgres database and add its credentials to the .env file
+    
+```
+DB_NAME=<db_name>
+DB_USER=<db_user>
+DB_PASSWORD=<db_password>
+DB_HOST=<db_host>
+DB_PORT=<db_port>
+```
+
+Run migrations
+```
+python manage.py migrate
+
+```
+
+- Run application
+```
+python manage.py runserver
+
+```
 
 ## How to submit an issue
 
@@ -40,7 +80,7 @@ We follow a strict code of conduct and you can read it [Here](CODE_OF_CONDUCT.md
 
 ## Credits
 
-Django MoMo API package was designed and built by Mwanja Joel, and is copyright © Mwanja Joel 2020. Django MoMo API is licensed under the MIT license; for the full license please see the [LICENSE](LICENSE) file. 
+Django MoMo API package was designed and built by Mwanja Joel. Django MoMo API is licensed under the MIT license; for the full license please see the [LICENSE](LICENSE) file. 
 
 Please see the [AUTHORS](AUTHORS) file for the full list of contributors. 
 
