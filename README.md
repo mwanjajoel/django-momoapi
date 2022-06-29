@@ -77,6 +77,10 @@ python manage.py runserver
 pytest
 
 ```
+## Code Formatting using Black
+```
+black momo
+```
 
 ## How to submit an issue
 
